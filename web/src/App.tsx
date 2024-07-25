@@ -31,7 +31,7 @@ import { fetchNui } from "./utils/fetchNui";
 const App: React.FC = () => {
   const [pause, setPause] = useState<boolean>(false);
   const [interaction, setInteraction] = useState<InteractionData | null>();
-  const [color, setColor] = useState("rgba(28, 126, 214,0.65)");
+  const [color, setColor] = useState("rgba(4,252,188,0.65)");
 
   useNuiEvent<{ x: number; y: number; z: number; w: number }>(
     "setColor",
